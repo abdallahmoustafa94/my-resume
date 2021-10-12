@@ -53,8 +53,8 @@ const MyWorks = () => {
                           HTML5 - CSS3 - JS - React - Gatsby - AntDesign
                         </span>
                         <br />
-                        Developed the frontend of a technology industry website
-                        based in using React and Gatsby.
+                        Developed the frontend of a technology industry website,
+                        based in Istanbul,Turkey, using React and Gatsby.
                       </Card.Description>
                     </Card.Content>
                   </Card>
@@ -110,8 +110,8 @@ const MyWorks = () => {
                           HTML5 - CSS3 - JS - React - Sass
                         </span>
                         <br />
-                        Developed the frontend of this car services app ,using
-                        React,React.js ecosystem
+                        Developed the frontend of this car services app using
+                        React and React.js ecosystem
                       </Card.Description>
                     </Card.Content>
                   </Card>
