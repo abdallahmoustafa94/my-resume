@@ -3,8 +3,8 @@ import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import { Image, Grid, Card } from "semantic-ui-react";
 import Typed from "react-typed";
-import projectOne from "../assets/p-1.png";
-import projectTwo from "../assets/p-2.png";
+import projectOne from "../assets/tabasher.svg";
+import projectTwo from "../assets/levers.webp";
 import projectThree from "../assets/p-3.png";
 import projectFour from "../assets/p-4.png";
 import projectFive from "../assets/p-5.png";
@@ -30,31 +30,31 @@ const MyWorks = () => {
       <div className="px-8 my-12">
         <Grid stackable>
           <Grid.Row columns={4}>
-            <Grid.Column tablet={16} computer={4}>
+            <Grid.Column tablet={16} computer={4} >
               <Animated
                 animationIn="bounceInDown"
                 animationInDuration={400}
                 isVisible={true}
               >
-                <a href="https://1daycloud.com/" target="_blank">
-                  <Card className="shadow-2xl project mx-auto">
+                <a href="https://tabasher.io/" target="_blank">
+                  <Card className="shadow-2xl project mx-auto" >
                     <Image
                       src={projectOne}
                       size="medium"
                       className="shadow-2xl"
-                      style={{ width: "260px" }}
+                      style={{ height: "170px" }}
                     />
                     <Card.Content>
                       <Card.Header className="project-title text-2xl">
-                        OneDay Cloud Website
+                        Tabasher Web App
                       </Card.Header>
                       <Card.Description>
                         <span className="project-desc text-xl">
-                          HTML5 - CSS3 - JS - React - Gatsby - AntDesign
+                          HTML5 - CSS3 - JS - Next.js - Bootstrap 
                         </span>
                         <br />
-                        Developed the frontend of a technology industry website,
-                        based in Istanbul,Turkey, using React and Gatsby.
+                        Developed the frontend of a cms for content creators ,
+                        based in Saudi Arabia, using Next js.
                       </Card.Description>
                     </Card.Content>
                   </Card>
@@ -67,20 +67,20 @@ const MyWorks = () => {
                 animationInDuration={800}
                 isVisible={true}
               >
-                <a href="https://www.homey.com.tr/en" target="_blank">
-                  <Card className="shadow-2xl project mx-auto">
-                    <Image src={projectTwo} className="shadow-2xl" />
+                <a href="https://www.uselevers.com/" target="_blank">
+                  <Card className="shadow-2xl project mx-auto" >
+                    <Image src={projectTwo} className="shadow-2xl" style={{ height: "170px" }}/>
                     <Card.Content>
                       <Card.Header className="project-title text-2xl">
-                        Homey Real Estate Website
+                        Levers 
                       </Card.Header>
                       <Card.Description>
                         <span className="project-desc text-xl">
-                          HTML5 - CSS3 - LESS - React - Redux
+                          HTML5 - JS - SASS - React 
                         </span>
                         <br />
-                        Developed the frontend of a real estate industry website
-                        based in Istanbul,Turkey,using React
+                        Developed the frontend of a financial management app
+                        based in Saudi Arabia,using React
                       </Card.Description>
                     </Card.Content>
                   </Card>
@@ -100,6 +100,7 @@ const MyWorks = () => {
                       src={projectFour}
                       size="huge"
                       className="shadow-2xl"
+                      style={{ height: "170px" }}
                     />
                     <Card.Content>
                       <Card.Header className="project-title text-2xl">
@@ -130,6 +131,7 @@ const MyWorks = () => {
                       src={projectFive}
                       size="huge"
                       className="shadow-2xl"
+                      style={{ height: "170px" }}
                     />
                     <Card.Content>
                       <Card.Header className="project-title text-2xl">
